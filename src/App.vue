@@ -9,7 +9,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import quizComponent from './components/quiz.vue';
+import quizComponent from './components/Quiz.vue';
 
 const quiz = ref(null)
 const state = ref('loading')
